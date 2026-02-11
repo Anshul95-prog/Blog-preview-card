@@ -8,9 +8,40 @@ body {
 }
 
 .container {
-    margin: 20px;
-    padding: 20px;
-    height: 400px;
+    margin: 30px;
+    padding: 30px;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
     background-color: white;
+    box-shadow: 10px 12px 10px rgb(2, 0, 0)
  
+}
+
+.rectangle-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#btn {
+    background-color: rgb(30, 30, 230);
+    margin: 10px;
+    padding: 5px;
+}
+
+.para {
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.circle-img {
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
 }
